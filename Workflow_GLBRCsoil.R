@@ -2013,7 +2013,7 @@ envfit.swg2016.total$Axis1 <- envfit.swg2016.total$Dim1 * arrow_scaling
 envfit.swg2016.total$Axis2 <- envfit.swg2016.total$Dim2 * arrow_scaling
 envfit.swg2016.total$Variable <- row.names(envfit.swg2016.total)
 
-write.table(file = "C:/Users/jaffyhu/Desktop/Soil/new/GLBRC soil/output/TableS3_swg2016EnvFit.txt", x=envfit.soil.total[,1:4], sep="\t", quote=FALSE)
+write.table(file = "C:/Users/jaffyhu/Desktop/Soil/new/GLBRC soil/output/TableS3_swg2016EnvFit.txt", x=envfit.swg2016.total[,1:4], sep="\t", quote=FALSE)
 
 ### Subset to p <0.05 r2>0.4
 envfit.swg2016.sub <- subset (envfit.swg2016.total , envfit.swg2016.total$pval<0.05)
@@ -2126,7 +2126,7 @@ envfit.mis2016.total$Axis1 <- envfit.mis2016.total$Dim1 * arrow_scaling
 envfit.mis2016.total$Axis2 <- envfit.mis2016.total$Dim2 * arrow_scaling
 envfit.mis2016.total$Variable <- row.names(envfit.mis2016.total)
 
-write.table(file = "C:/Users/jaffyhu/Desktop/Soil/new/GLBRC soil/output/TableS3_mis2016EnvFit.txt", x=envfit.soil.total[,1:4], sep="\t", quote=FALSE)
+write.table(file = "C:/Users/jaffyhu/Desktop/Soil/new/GLBRC soil/output/TableS3_mis2016EnvFit.txt", x=envfit.mis2016.total[,1:4], sep="\t", quote=FALSE)
 
 ### Subset to p <0.05 r2>0.4
 envfit.mis2016.sub <- subset (envfit.mis2016.total , envfit.mis2016.total$pval<0.05)
@@ -2240,7 +2240,7 @@ envfit.swg2017.total$Axis1 <- envfit.swg2017.total$Dim1 * arrow_scaling
 envfit.swg2017.total$Axis2 <- envfit.swg2017.total$Dim2 * arrow_scaling
 envfit.swg2017.total$Variable <- row.names(envfit.swg2017.total)
 
-write.table(file = "C:/Users/jaffyhu/Desktop/Soil/new/GLBRC soil/output/TableS3_swg2017EnvFit.txt", x=envfit.soil.total[,1:4], sep="\t", quote=FALSE)
+write.table(file = "C:/Users/jaffyhu/Desktop/Soil/new/GLBRC soil/output/TableS3_swg2017EnvFit.txt", x=envfit.swg2017.total[,1:4], sep="\t", quote=FALSE)
 
 ### Subset to p <0.05, r2>0.4
 envfit.swg2017.sub <- subset (envfit.swg2017.total , envfit.swg2017.total$pval<0.05)
